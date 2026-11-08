@@ -40,8 +40,8 @@ object Endless {
     /** 借用版圖的關卡（5-4）。障礙物金幣也以它的進度計算。 */
     const val MAP_LEVEL_ID = 20
 
-    const val START_GOLD = 250
-    const val CARROT_HP = 10
+    const val START_GOLD = 25000
+    const val CARROT_HP = 10000
 
     const val BASE_HP = 45f
     const val HP_GROWTH = 1.11f
