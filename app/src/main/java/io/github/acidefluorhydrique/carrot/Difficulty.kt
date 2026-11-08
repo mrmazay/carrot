@@ -33,6 +33,8 @@ enum class Difficulty(
     val hpGrowth: Float,
     val countGrowth: Float
 ) {
+    BABY(R.string.difficulty_normal, 0.1f, 0.1f),
+    EASY(R.string.difficulty_normal, 0.8f, 0.8f),
     NORMAL(R.string.difficulty_normal, 1f, 1f),
     HARD(R.string.difficulty_hard, 1.15f, 1.08f);
 
