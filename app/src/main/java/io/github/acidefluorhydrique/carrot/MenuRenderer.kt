@@ -354,6 +354,7 @@ class MenuRenderer {
         val (top, bottom) = when (difficulty) {
             Difficulty.NORMAL -> Widgets.GREEN_TOP to Widgets.GREEN_BOTTOM
             Difficulty.HARD -> Widgets.RED_TOP to Widgets.RED_BOTTOM
+            else -> Widgets.GREEN_TOP to Widgets.GREEN_BOTTOM
         }
         Widgets.button(
             canvas, difficultyButtonRect(w, h), Strings.get(R.string.difficulty_title), top, bottom,
