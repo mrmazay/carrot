@@ -172,6 +172,7 @@ class SaveRepository(context: Context) {
     private fun starsKey(difficulty: Difficulty): String = when (difficulty) {
         Difficulty.NORMAL -> KEY_STARS
         Difficulty.HARD -> KEY_STARS_HARD
+        else -> KEY_STARS
     }
 
     private fun starMap(difficulty: Difficulty): Map<Int, Int> {
